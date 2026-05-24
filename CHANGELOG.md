@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.8.0](https://github.com/algoscope-hq/AlgoScope/compare/v1.7.0...v1.8.0) (2026-05-24)
+
+
+### Features
+
+* add Sieve of Eratosthenes visualizer and fix math code line highlighting ([57e8a85](https://github.com/algoscope-hq/AlgoScope/commit/57e8a855b9d468e179bba3dad45c4d14e05af217))
+* add test case manager ([50b8990](https://github.com/algoscope-hq/AlgoScope/commit/50b899033a838f36e8b9aa7883810f936b640dff))
+* add test case manager with IndexedDB persistence and search ([6868689](https://github.com/algoscope-hq/AlgoScope/commit/68686892809e9cc48266cf52d8996540ed05ce0e))
+* **graph:** add interactive graph canvas builder for BFS, DFS, and shortest-path visualizers ([0a1dea3](https://github.com/algoscope-hq/AlgoScope/commit/0a1dea30e27265832fd394d79c4403464fab17d1))
+* **grid:** add weighted node traversal and interactive cost visualization ([2856d38](https://github.com/algoscope-hq/AlgoScope/commit/2856d38801b459be9128a9cdb4e1e44580ac7d24))
+* **math:** add Fibonacci Visualizer with Golden Spiral and Recursion Tree modes ([f8acaab](https://github.com/algoscope-hq/AlgoScope/commit/f8acaab659742592d2a8a890f1765cc1a4b8688c))
+* **sort:** add custom array input and validation ([101c217](https://github.com/algoscope-hq/AlgoScope/commit/101c217f24e9f6e0cf8971a0cae6f2bba547ff3f))
+
+
+### Bug Fixes
+
+* added light mode visibility practice button and visible text ([f1134a4](https://github.com/algoscope-hq/AlgoScope/commit/f1134a4921d027226587eb1b3f6089e006a6ef03))
+* allow duplicate values in BST and fix negative input bug on Enter ([53bacd5](https://github.com/algoscope-hq/AlgoScope/commit/53bacd565e818b2f981a373d908d0ecf653e963b))
+* format ([c4b29ca](https://github.com/algoscope-hq/AlgoScope/commit/c4b29ca220677bd17c86be3a58b7267b0eec9237))
+* format ([7516fee](https://github.com/algoscope-hq/AlgoScope/commit/7516fee7e9f10923199af97904996162545459c1))
+* format ([417ae1a](https://github.com/algoscope-hq/AlgoScope/commit/417ae1ac353342993dabfd8de56f45bb33dd14f1))
+* **graph:** address PR review for builder edits and stale traversals ([88e7825](https://github.com/algoscope-hq/AlgoScope/commit/88e78255c98e2d6d5f7dadc8bb5934d3cf6759e9))
+* **graph:** show graph builder toolbar reliably on canvas ([7f97d97](https://github.com/algoscope-hq/AlgoScope/commit/7f97d97b306a3509978c51156c97220d45e2260c))
+* **grid:** preserve weighted node styling during traversal ([5d9ccac](https://github.com/algoscope-hq/AlgoScope/commit/5d9ccacd99226608456afa8296efe9f44c04c480))
+* improve Clerk dark mode profile UI visibility ([4a815f7](https://github.com/algoscope-hq/AlgoScope/commit/4a815f794fb5220cad874ad71567bc73c5596544))
+* lint ([b18ae73](https://github.com/algoscope-hq/AlgoScope/commit/b18ae73d272ffb36d4315ce382c5a82012cdfb94))
+* lint ([6f14375](https://github.com/algoscope-hq/AlgoScope/commit/6f14375199bacbec4bb710c289f89256b4cef57c))
+* lint ([e20542c](https://github.com/algoscope-hq/AlgoScope/commit/e20542cb55dc874c10c542eb604a5ed0ab0c1077))
+* **lint:** resolve react-hooks violations in graph builder components ([4f73692](https://github.com/algoscope-hq/AlgoScope/commit/4f736929c744039833091291f306862e874ad220))
+* **lint:** wrap treeState in useMemo, remove unused isLeaf variable ([6fa730e](https://github.com/algoscope-hq/AlgoScope/commit/6fa730ef37bc7a1599e5d995a144a8e690d939e7))
+* resolve text overlap in complexity sidebar ([16a6527](https://github.com/algoscope-hq/AlgoScope/commit/16a6527db020e32a9c03306f39c76f77c3884754))
+* step insights now visible by dafault ([c810643](https://github.com/algoscope-hq/AlgoScope/commit/c810643c1bd076b0ec12d004e0066ea69ed32e18))
+* sync live code block with custom array input in Kadane's and Moore's Algo ([b45c0a3](https://github.com/algoscope-hq/AlgoScope/commit/b45c0a3d8939a9fddc93b3045663e6340b77afb5))
+
 ## [1.7.0] - 2026-05-22
 
 ### Added
